@@ -2,10 +2,21 @@ import React from 'react';
 
 const Navbar = () => {
     return (
-       <div className="navbar bg-base-100 shadow-sm">
-  <div className="flex-1">
-    <a className="btn btn-ghost text-xl">daisyUI</a>
+       <div className="navbar bg-base-100  container mx-auto flex justify-between text-center items-center">
+  <div className="">
+    <a className=" text-blue-500 text-2xl font-bold">DigiTools</a>
   </div>
+
+  <div className='text-center flex justify-center items-center'>
+    <ul className='flex  gap-8 hidden md:flex'>
+       <li><a href="">Products</a></li>
+       <li><a href="">Features</a></li>
+       <li><a href="">Pricing</a></li>
+       <li><a href="">Testimonials</a></li>
+       <li><a href="">FAQ</a></li>
+    </ul>
+  </div>
+
   <div className="flex-none">
     <div className="dropdown dropdown-end">
       <div tabIndex={0} role="button" className="btn btn-ghost btn-circle">
@@ -27,25 +38,10 @@ const Navbar = () => {
       </div>
     </div>
     <div className="dropdown dropdown-end">
-      <div tabIndex={0} role="button" className="btn btn-ghost btn-circle avatar">
-        <div className="w-10 rounded-full">
-          <img
-            alt="Tailwind CSS Navbar component"
-            src="https://img.daisyui.com/images/stock/photo-1534528741775-53994a69daeb.webp" />
-        </div>
-      </div>
-      <ul
-        tabIndex="-1"
-        className="menu menu-sm dropdown-content bg-base-100 rounded-box z-1 mt-3 w-52 p-2 shadow">
-        <li>
-          <a className="justify-between">
-            Profile
-            <span className="badge">New</span>
-          </a>
-        </li>
-        <li><a>Settings</a></li>
-        <li><a>Logout</a></li>
-      </ul>
+
+      <a className='font-semibold  mr-3 ml-3 btn btn-ghost rounded-full' href="">Login</a>
+     <button className='btn btn-primary rounded-full'>Get Started</button>
+
     </div>
   </div>
 </div>

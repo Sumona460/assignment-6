@@ -1,7 +1,9 @@
 
 import './App.css'
+import Footer from './components/Footer/Footer'
 import Banner from './components/Hero_Area/Banner'
-import Navbar from './components/Navbar/Navbar'
+import Navbar from './components/Navbar/Navbar';
+import { FaBeer } from 'react-icons/fa';
 
 function App() {
   
@@ -10,6 +12,9 @@ function App() {
     <>
 <Navbar></Navbar>
 <Banner></Banner>
+<FaBeer/>
+
+<Footer></Footer>
    </>
   )
 }
