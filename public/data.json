@@ -6,6 +6,7 @@
     "price": 9.99,
     "period": "monthly",
     "tag": "popular",
+
     "tagType": "popular",
     "features": "100+ templates",
     "icon": "FaFileAlt",
