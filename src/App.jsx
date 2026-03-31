@@ -1,9 +1,10 @@
 
 import './App.css'
-import Footer from './components/Footer/Footer'
 import Banner from './components/Hero_Area/Banner'
 import Navbar from './components/Navbar/Navbar';
-import { FaBeer } from 'react-icons/fa';
+import WorkFlow from './components/WorkFlow/WorkFlow';
+import Footer from './components/Footer/Footer';
+
 
 function App() {
   
@@ -12,11 +13,12 @@ function App() {
     <>
 <Navbar></Navbar>
 <Banner></Banner>
-<FaBeer/>
 
+<WorkFlow></WorkFlow>
 <Footer></Footer>
+
    </>
   )
 }
 
-export default App
+export default App;
