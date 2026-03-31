@@ -1,0 +1,90 @@
+[
+  {
+    "id": 1,
+    "name": "Resume Builder Pro",
+    "description": "Create professional resumes with ATS-friendly templates.",
+    "price": 9.99,
+    "period": "monthly",
+    "tag": "popular",
+    "tagType": "popular",
+    "features": ["100+ templates", "ATS optimization", "Export to PDF"],
+    "icon": "FaFileAlt"
+  },
+  {
+    "id": 2,
+    "name": "Portfolio Website Kit",
+    "description": "Build a personal portfolio website بسهولة.",
+    "price": 19.99,
+    "period": "one-time",
+    "tag": "best seller",
+    "tagType": "best",
+    "features": ["Custom domains", "SEO optimized", "Responsive design"],
+    "icon": "FaGlobe"
+  },
+  {
+    "id": 3,
+    "name": "Job Tracker",
+    "description": "Track job applications and interviews بسهولة.",
+    "price": 4.99,
+    "period": "monthly",
+    "tag": "new",
+    "tagType": "new",
+    "features": ["Application tracking", "Interview reminders", "Notes section"],
+    "icon": "FaTasks"
+  },
+  {
+    "id": 4,
+    "name": "Cover Letter Generator",
+    "description": "Generate personalized cover letters in seconds.",
+    "price": 7.99,
+    "period": "monthly",
+    "tag": "popular",
+    "tagType": "popular",
+    "features": ["AI suggestions", "Multiple formats", "Easy export"],
+    "icon": "FaEnvelopeOpenText"
+  },
+  {
+    "id": 5,
+    "name": "Interview Prep Pack",
+    "description": "Prepare for interviews with curated questions and tips.",
+    "price": 14.99,
+    "period": "one-time",
+    "tag": "best seller",
+    "tagType": "best",
+    "features": ["Common Q&A", "Mock interviews", "Expert tips"],
+    "icon": "FaUserTie"
+  },
+  {
+    "id": 6,
+    "name": "LinkedIn Optimizer",
+    "description": "Boost your LinkedIn profile visibility.",
+    "price": 5.99,
+    "period": "monthly",
+    "tag": "new",
+    "tagType": "new",
+    "features": ["Profile review", "Keyword optimization", "Headline generator"],
+    "icon": "FaLinkedin"
+  },
+  {
+    "id": 7,
+    "name": "Freelancer Starter Kit",
+    "description": "Everything you need to start freelancing.",
+    "price": 24.99,
+    "period": "one-time",
+    "tag": "popular",
+    "tagType": "popular",
+    "features": ["Proposal templates", "Client management", "Invoice generator"],
+    "icon": "FaLaptopCode"
+  },
+  {
+    "id": 8,
+    "name": "Skill Development Hub",
+    "description": "Access courses to improve your professional skills.",
+    "price": 12.99,
+    "period": "yearly",
+    "tag": "best seller",
+    "tagType": "best",
+    "features": ["Video tutorials", "Certificates", "Expert mentors"],
+    "icon": "FaGraduationCap"
+  }
+]

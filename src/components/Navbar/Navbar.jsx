@@ -1,7 +1,8 @@
 import React from 'react';
 
-const Navbar = () => {
+const Navbar = ({cartCount}) => {
     return (
+
        <div className="navbar bg-base-100  container mx-auto flex justify-between text-center items-center">
   <div className="">
     <a className=" text-blue-500 text-2xl font-bold">DigiTools</a>
@@ -16,6 +17,7 @@ const Navbar = () => {
        <li><a href="">FAQ</a></li>
     </ul>
   </div>
+
 
   <div className="flex-none">
     <div className="dropdown dropdown-end">
