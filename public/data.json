@@ -7,30 +7,35 @@
     "period": "monthly",
     "tag": "popular",
     "tagType": "popular",
-    "features": ["100+ templates", "ATS optimization", "Export to PDF"],
-    "icon": "FaFileAlt"
+    "features": "100+ templates",
+    "icon": "FaFileAlt",
+    "image": "https://tex.stackexchange.com/questions/174647/latex-file-and-folder-symbols"
+
   },
   {
     "id": 2,
-    "name": "Portfolio Website Kit",
-    "description": "Build a personal portfolio website بسهولة.",
+    "name": "Portfolio Web Kit",
+    "description": "Build a personal portfolio website with our special Kit",
     "price": 19.99,
     "period": "one-time",
     "tag": "best seller",
     "tagType": "best",
-    "features": ["Custom domains", "SEO optimized", "Responsive design"],
-    "icon": "FaGlobe"
+    "features": "Custom domains",
+    "icon": "FaGlobe",
+    "image": "https://www.freepik.com/free-photos-vectors/fa-globe/6"
+
   },
   {
     "id": 3,
     "name": "Job Tracker",
-    "description": "Track job applications and interviews بسهولة.",
+    "description": "Track job applications and interviews Free all over the world.",
     "price": 4.99,
     "period": "monthly",
     "tag": "new",
     "tagType": "new",
-    "features": ["Application tracking", "Interview reminders", "Notes section"],
-    "icon": "FaTasks"
+    "features": "Application tracking",
+    "icon": "FaTasks",
+    "image": "https://stock.adobe.com/search?k=fataka"
   },
   {
     "id": 4,
@@ -40,8 +45,9 @@
     "period": "monthly",
     "tag": "popular",
     "tagType": "popular",
-    "features": ["AI suggestions", "Multiple formats", "Easy export"],
-    "icon": "FaEnvelopeOpenText"
+    "features": "AI suggestions",
+    "icon": "FaEnvelopeOpenText",
+    "image": "https://www.freepik.com/free-photos-vectors/open-envelope"
   },
   {
     "id": 5,
@@ -52,7 +58,8 @@
     "tag": "best seller",
     "tagType": "best",
     "features": ["Common Q&A", "Mock interviews", "Expert tips"],
-    "icon": "FaUserTie"
+    "icon": "FaUserTie",
+    "image": "https://fontawesome.com/icons/user-tie"
   },
   {
     "id": 6,
@@ -63,7 +70,8 @@
     "tag": "new",
     "tagType": "new",
     "features": ["Profile review", "Keyword optimization", "Headline generator"],
-    "icon": "FaLinkedin"
+    "icon": "FaLinkedin",
+    "image": "https://favpng.com/png_view/linkedin-picture-linkedin-facebook-social-media-font-awesome-icon-png/DqmiPTtG"
   },
   {
     "id": 7,
@@ -74,7 +82,8 @@
     "tag": "popular",
     "tagType": "popular",
     "features": ["Proposal templates", "Client management", "Invoice generator"],
-    "icon": "FaLaptopCode"
+    "icon": "FaLaptopCode",
+    "image": "https://www.freepik.com/free-photos-vectors/laptop-code"
   },
   {
     "id": 8,
@@ -85,6 +94,7 @@
     "tag": "best seller",
     "tagType": "best",
     "features": ["Video tutorials", "Certificates", "Expert mentors"],
-    "icon": "FaGraduationCap"
+    "icon": "FaGraduationCap",
+    "image": "https://www.freepik.com/free-photos-vectors/graduation-cap"
   }
 ]
