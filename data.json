@@ -1,0 +1,101 @@
+[
+  {
+    "id": 1,
+    "name": "Resume Builder Pro",
+    "description": "Create professional resumes with ATS-friendly templates.",
+    "price": 9.99,
+    "period": "monthly",
+    "tag": "popular",
+
+    "tagType": "popular",
+    "features": "100+ templates",
+    "icon": "FaFileAlt",
+    "image": "https://i.ibb.co.com/BHLW38sY/design-tool.png" 
+
+  },
+  {
+    "id": 2,
+    "name": "Portfolio Web Kit",
+    "description": "Build a personal portfolio website with our special Kit",
+    "price": 19.99,
+    "period": "one-time",
+    "tag": "best seller",
+    "tagType": "best",
+    "features": "Custom domains",
+    "icon": "FaGlobe",
+    "image": "https://www.freepik.com/free-photos-vectors/fa-globe/6"
+
+  },
+  {
+    "id": 3,
+    "name": "Job Tracker",
+    "description": "Track job applications and interviews Free all over the world.",
+    "price": 4.99,
+    "period": "monthly",
+    "tag": "new",
+    "tagType": "new",
+    "features": "Application tracking",
+    "icon": "FaTasks",
+    "image": "https://stock.adobe.com/search?k=fataka"
+  },
+  {
+    "id": 4,
+    "name": "Cover Letter Generator",
+    "description": "Generate personalized cover letters in seconds.",
+    "price": 7.99,
+    "period": "monthly",
+    "tag": "popular",
+    "tagType": "popular",
+    "features": "AI suggestions",
+    "icon": "FaEnvelopeOpenText",
+    "image": "https://www.freepik.com/free-photos-vectors/open-envelope"
+  },
+  {
+    "id": 5,
+    "name": "Interview Prep Pack",
+    "description": "Prepare for interviews with curated questions and tips.",
+    "price": 14.99,
+    "period": "one-time",
+    "tag": "best seller",
+    "tagType": "best",
+    "features": ["Common Q&A", "Mock interviews", "Expert tips"],
+    "icon": "FaUserTie",
+    "image": "https://fontawesome.com/icons/user-tie"
+  },
+  {
+    "id": 6,
+    "name": "LinkedIn Optimizer",
+    "description": "Boost your LinkedIn profile visibility.",
+    "price": 5.99,
+    "period": "monthly",
+    "tag": "new",
+    "tagType": "new",
+    "features": ["Profile review", "Keyword optimization", "Headline generator"],
+    "icon": "FaLinkedin",
+    "image": "https://favpng.com/png_view/linkedin-picture-linkedin-facebook-social-media-font-awesome-icon-png/DqmiPTtG"
+  },
+  {
+    "id": 7,
+    "name": "Freelancer Starter Kit",
+    "description": "Everything you need to start freelancing.",
+    "price": 24.99,
+    "period": "one-time",
+    "tag": "popular",
+    "tagType": "popular",
+    "features": ["Proposal templates", "Client management", "Invoice generator"],
+    "icon": "FaLaptopCode",
+    "image": "https://www.freepik.com/free-photos-vectors/laptop-code"
+  },
+  {
+    "id": 8,
+    "name": "Skill Development Hub",
+    "description": "Access courses to improve your professional skills.",
+    "price": 12.99,
+    "period": "yearly",
+    "tag": "best seller",
+    "tagType": "best",
+    "features": ["Video tutorials", "Certificates", "Expert mentors"],
+    "icon": "FaGraduationCap",
+    "image": "https://www.freepik.com/free-photos-vectors/graduation-cap"
+  }
+]
