@@ -1,5 +1,7 @@
 import React, { use } from 'react';
-import { FaFileAlt } from 'react-icons/fa';
+import { FaFileAlt } from 'react-icons/fa'; 
+import image from '../../assets/products/design-tool.png'
+import ToggleButtons from './ToggleBtn'
 
 const FirstCard = ({cardsPromise}) => {
     const cards = use(cardsPromise)
@@ -9,10 +11,11 @@ const FirstCard = ({cardsPromise}) => {
         <div>
             <h2 className='text-5xl text-center font-bold mt-28'>Premium Digital Tools</h2>
             <p className='text-center'>Choose from our curated collection of premium digital products designed <br /> to boost your productivity and creativity.</p>
-            <div className='flex gap-2 items-center justify-center border border-blue-500 rounded-full w-2xs text-center mb-16'>
-                <button className='btn btn-primary rounded-full'>Product</button>
-                <button className='btn rounded-full btn-outline'>Cart</button>
-            </div>
+            {/* <div className='flex gap-2 items-center justify-center text-center mb-16 mt-7'>
+                
+                <button className='btn rounded-full btn-outline'><button className='btn btn-primary rounded-full'>Product</button>Cart</button>
+            </div> */}
+            <ToggleButtons/>
         </div>
 
         <div className='grid md:grid-cols-3 container mx-auto mb-7'>
@@ -21,8 +24,8 @@ const FirstCard = ({cardsPromise}) => {
 
     <div className="card  w-87 bg-base-100 shadow-sm mb-7 space-y-3 container mx-auto">
   <div key={card.id} className="card-body">
-    <div className='flex justify-between'>
-        <span>{card.icon}</span>
+    <div className='flex justify-between'> 
+<img src="../../assets/products/design-tool.png" alt="" />
     <span className="badge badge-xs badge-warning">{card.tag}</span>
     </div>
     <div className="">
