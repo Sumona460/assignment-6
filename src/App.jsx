@@ -10,20 +10,26 @@ import ToggleButtons from './components/Cards/ToggleBtn'
 
 import Rating from './components/Rating';
 import GetStarted from './components/Cards/GetStarted';
+import Pricing from './components/Cards/Pricing'
 
 
 
 
 const getCard = async ()=>{
-  const res = await fetch("/public/data.json")
-  return res.json()
+  const res = await fetch("/data.json")
+  return res.json();
 }
 
-const cardsPromise = getCard()
+const cardsPromise = getCard();
 
 
 function App() {
  const [cart, setCart] = useState([]);
+
+   const handleAddToCart = (card) => {
+    setCart([...cart, card]);
+  };
+
 
   return (
     <>
@@ -33,11 +39,13 @@ function App() {
 <Rating/>
 
 {/* <FirstCard cardsPromise = {cardsPromise}></FirstCard> */}
-<FirstCard cardsPromise = {cardsPromise}/>
+<FirstCard cardsPromise = {cardsPromise} handleAddToCart={handleAddToCart}/>
  
  
 
 <GetStarted/>
+
+<Pricing/>
 
 <WorkFlow></WorkFlow>
 <Footer></Footer>

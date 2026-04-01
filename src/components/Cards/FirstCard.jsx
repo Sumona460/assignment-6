@@ -1,31 +1,46 @@
-import React, { use } from 'react';
+import React, {  use, useState } from 'react';
+
 import { FaFileAlt } from 'react-icons/fa'; 
 import image from '../../assets/products/design-tool.png'
 import ToggleButtons from './ToggleBtn'
 
-const FirstCard = ({cardsPromise}) => {
+const FirstCard = ({cardsPromise,  handleAddToCart}) => {
     const cards = use(cardsPromise)
     console.log(cards);
+
+  
+
+     const [addedItems, setAddedItems] = useState([]); 
+
+     const handleClick = (card) => {
+  handleAddToCart(card);
+
+  if (addedItems.includes(card.id)) {
+    // REMOVE
+    setAddedItems(addedItems.filter(id => id !== card.id));
+  } else {
+    // ADD
+    setAddedItems([...addedItems, card.id]);
+  }
+};
+
     return (
         <>
         <div>
             <h2 className='text-5xl text-center font-bold mt-28'>Premium Digital Tools</h2>
             <p className='text-center'>Choose from our curated collection of premium digital products designed <br /> to boost your productivity and creativity.</p>
-            {/* <div className='flex gap-2 items-center justify-center text-center mb-16 mt-7'>
-                
-                <button className='btn rounded-full btn-outline'><button className='btn btn-primary rounded-full'>Product</button>Cart</button>
-            </div> */}
+          
             <ToggleButtons/>
         </div>
 
         <div className='grid md:grid-cols-3 container mx-auto mb-7'>
-{cards.map(card => <div className=''>
+{cards.map(card => <div key={card.id} className=''>
 
 
     <div className="card  w-87 bg-base-100 shadow-sm mb-7 space-y-3 container mx-auto">
   <div key={card.id} className="card-body">
     <div className='flex justify-between'> 
-<img src="../../assets/products/design-tool.png" alt="" />
+<img src={image} alt="" />
     <span className="badge badge-xs badge-warning">{card.tag}</span>
     </div>
     <div className="">
@@ -54,7 +69,16 @@ const FirstCard = ({cardsPromise}) => {
      
     </ul>
     <div className="mt-6">
-      <button className="btn btn-primary rounded-full btn-block">Buy Now</button>
+      <button
+  onClick={() => handleClick(card)}
+  className={`btn rounded-full btn-block ${
+    addedItems.includes(card.id)
+      ? "btn-success"
+      : "btn-primary"
+  }`}
+>
+  {addedItems.includes(card.id) ? "Added" : "Buy Now"}
+</button>
     </div>
   </div>
 </div>

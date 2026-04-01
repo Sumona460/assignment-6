@@ -1,4 +1,5 @@
 import React from 'react';
+// import ToggleButtons from '../Cards/FirstCard'
 
 const Navbar = ({cartCount = 0}) => {
     return (
@@ -29,12 +30,16 @@ const Navbar = ({cartCount = 0}) => {
       </div>
       <div
         tabIndex={0}
-        className="card card-compact dropdown-content bg-base-100 z-1 mt-3 w-52 shadow">
+        className="card card-compact dropdown-content bg-base-100 z-1 mt-3 w-180 shadow">
         <div className="card-body">
           <span className="text-lg font-bold">{cartCount} Items</span>
-          <span className="text-info">Subtotal: $999</span>
+          <div>
+               <h2 className='text-3xl text-center font-bold '>Premium Digital Tools</h2>
+               <p className='text-center'>Choose from our curated collection of premium digital products designed <br /> to boost your productivity and creativity.</p>
+            </div>
+          
           <div className="card-actions">
-            <button className="btn btn-primary btn-block">View cart</button>
+            <button className="btn btn-primary rounded-full btn-block">Proceed to Checkout</button>
           </div>
         </div>
       </div>
